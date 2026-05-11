@@ -10,7 +10,7 @@ words: [sudo]
 status: [private]
 ---
 
-# Thursday May 7 2026
+# Sunday May 10 2026
 
 **Highlight reel from today...**
 
@@ -22,7 +22,8 @@ status: [private]
 ## Blog
 
 + This is the last day of Week 11 and I think I owe it to myself to spend some time writing. Happy Mother's Day! :)
-++ Claude Opus 4.7 has been guiding me through the Mac Mini setup and installation of Hermes Agent since Friday morning. ++ Honest review 3 days later (1 full day plus a weekend with a few hours here and there) on Sunday night:
+++ Claude Opus 4.7 has been guiding me through the Mac Mini setup and installation of Hermes Agent since Friday morning. 
+++ Honest review 3 days later (1 full day plus a weekend with a few hours here and there) on Sunday night:
 +++ I've definitely learned a lot! 
 ++ This is what it feels like to be a tech n00b, more like landing on the moon where everyone speaks "Moon Language" and all I have is this AI translator device that speaks pretty good Moon Language, but still gets lost because there are basically an infinite number of dialects and variables -- all of which is actively changing in real time, as this is not a static moon. It is unstable. The current state we're in is actually the aftermath of a massive quake that broke apart an old paradigm and erupted a tsunami of entropy that is evolving in real time. It is exhausting to try to keep up with, so I don't. I just don't. I can't. I have a family, I have waves to surf, I have a dog who is dying of cancer, I have my Mom to call, I have friends texting me, returns to take back to the mall, Costco runs, etc. etc. ... 
 ++ It sure would be nice to have SOME background in this. In the car today I had a quiet moment to remark to M about how I'd just had time to Google what "sudo" means -- super user do -- and he corrected my pronunciation (bad: "pseudo" / good: "sue-dew") and I was like, THIS IS WHAT IT IS LIKE to be on the moon, reading Moon Language, speaking Moon Language, but with exactly zero background in all of this.
