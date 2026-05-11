@@ -1,0 +1,107 @@
+---
+date: 2026-05-010
+week: 11
+type: "post"
+mood: 
+themes: []
+people: []
+music: [interpol]
+words: [sudo]
+status: [private]
+---
+
+# Thursday May 7 2026
+
+**Highlight reel from today...**
+
++ Mac Mini setup
++ I built my first agent (her name is Seek)
++ Seek can search the web! 
++ Interpol
+
+## Blog
+
++ This is the last day of Week 11 and I think I owe it to myself to spend some time writing. Happy Mother's Day! :)
+++ Claude Opus 4.7 has been guiding me through the Mac Mini setup and installation of Hermes Agent since Friday morning. ++ Honest review 3 days later (1 full day plus a weekend with a few hours here and there) on Sunday night:
++++ I've definitely learned a lot! 
+++ This is what it feels like to be a tech n00b, more like landing on the moon where everyone speaks "Moon Language" and all I have is this AI translator device that speaks pretty good Moon Language, but still gets lost because there are basically an infinite number of dialects and variables -- all of which is actively changing in real time, as this is not a static moon. It is unstable. The current state we're in is actually the aftermath of a massive quake that broke apart an old paradigm and erupted a tsunami of entropy that is evolving in real time. It is exhausting to try to keep up with, so I don't. I just don't. I can't. I have a family, I have waves to surf, I have a dog who is dying of cancer, I have my Mom to call, I have friends texting me, returns to take back to the mall, Costco runs, etc. etc. ... 
+++ It sure would be nice to have SOME background in this. In the car today I had a quiet moment to remark to M about how I'd just had time to Google what "sudo" means -- super user do -- and he corrected my pronunciation (bad: "pseudo" / good: "sue-dew") and I was like, THIS IS WHAT IT IS LIKE to be on the moon, reading Moon Language, speaking Moon Language, but with exactly zero background in all of this.
+++ I mean, like, a CS 101 class would've been useful now. I seem to be extremely adept (at age 39) building my life around EXACTLY THE ONLY CLASSES I DID NOT TAKE IN COLLEGE when I took literally everything from quantum mechanics to ROTC, and later found myself doing... marketing and tech?
+
++ M also explained that "venv" means "virtual environment."
+
++ The problem is that I don't have time to double-back and take a CS 101 class, because I AM ALREADY ON THE MOON. I am getting vibes that I haven't felt since I was in my 20s backpacking in Nepal, India, and Indonesia. There is no time, now, to take a 101 class. I am in the mix. I have to learn this as I go, one piece of critical information at a time. It is exactly like being dropped in a foreign country and having to learn the language on the fly. The way I learn is by trying to do what must be done. If I am going to do it, I must learn what I need to know to do that thing -- or I am UNABLE TO DO IT! Like in a foreign country. I got pretty good at picking up language skills for things like ordering food, finding a hotel, hailing a taxi, telling drivers where I needed to go, haggling over prices, and basic exchanges of appreciation and respect, etc. It was hard. I loved it. I can't say I loved every second of it, but it was a skill that I appreciated more deeply over time.
+
++ [Note: Yesterday Claude said "most of the install hiccups were Hermes-the-software's rough edges, not yours. The blocker we're stuck on is ultimately one missing dependency — not a fundamental architectural problem." He was wrong.]
+++ This is something I've also had to learn the hard way! 
+++ AI is only as good as the human using it. I would never be where I am at without Claude, but I also just spent a few hours going down a debugging wild-goose-chase rabbit-hole when I couldn't figure out why Hermes couldn't use a basic browser tool out-of-the-box. This absolutely did not make sense. I just assumed I f'd something up on the install.
+++ Long story short, I was right.
+++ I was super frustrated and considering a total wipe and re-install. Claude talked me down off the ledge, assuring me that it was not my fault (when it really was, but thx). The moral support helped me stick with it.
+++ I've been doing all of this REALLY LATE AT NIGHT because that is basically the only time I have when I am not being interrupted by kids, work, text messages, laundry, Costco runs, dogs that need to be walked, a kid literally shitting in the tub and trying to jam it down the drain without saying anything until the tub begins to fill up, another kid who has discovered that a balloon can be used as a musical instrument in the most annoying way possible, a baby who needs to cuddle with his mama, boys who are being boys and flooding the backyard with the hose as I watch resplendently and all the other etc. etc. etc. of our day-to-day lives--
+
++ So let's go through the Mini Setup, because this was BIG in my AI Grail Quest.
+
++ The Mac Mini honestly was a side-thought. I wish I would've paid more for more RAM, but I am poor and the $599 price-tag was expensive enough in March 2026 (the same model is now $799 due to increased demand and the RAMmageddon currently going on). So at that price-point, I got a Mini with an 16GB unified memory, 512 GB SSD, M4 chip, 10-core CPU, 10-core GPU, and a 6-week wait for it to arrive. I had an idea that I would like to play with it, but wasn't exactly sure what I would be doing with it in March 2026. 
+++ RAM is the big constraint in AI right now. I knew that going in, but I figured (correctly, I hope) that 16GB would be enough for my DIY learning projects, and when/if I needed more, I would either patch something in or upgrade. 
+++ If I had splurged on a Mini with 32GB of memory (or more...Apple discontinued the 512GB version a few months ago, and M tells me they are now selling on eBay for like $30,000 a pop), I would have been able to run local models that do more than grunt work. That part stings a bit. 
+++ But the workaround is pretty cheap and simple to implement. So cheap and simple, I question whether I even needed the Mini at all. 
+++ Basically my mental gist is this: I probably could've set up Hermes/OpenClaw on a pi or a VPS that would do essentially the same thing as a Mac Mini, and saved myself like $500, because the 16GB memory is not powerful enough to run a local model that is actually useful for *most* things.
+++ I say *most* things because I am optimistic! My plan is to have a Hermes Agent sandboxed, and the Mini is really an ideal box for what I am planning to use it for. I like that I have it physically on my desk, as opposed to in the cloud. 
+
++ The unboxing was fun! Apple's design team is top-notch, and it has apparently even trickled down to their cardboard boxes. The box the Mini came in was almost as epic as the Mini itself! I ripped off a strip of cardboard and the whole box fell open in a flat-pack with built-in buffers on the sides to prevent any damage en route from denting the Mini.
+
++ M also marveled at the Mini itself, and explained to me how intricate the machining is to slide in a stainless-steel  Apple logo that perfectly fits a slot on the top of the Mini. The beveled curves and glowy-gray surface are *_* 
+
++ Right now I am using OpenRouter to connect my agent (Seek) to a brain in the cloud, and the Mini is set up to be her "eyes" and "hands" if you vibe. 
+++ This is actually a lot cheaper than I expected! 
+++ Hermes is kinda known for burning tokens like a bonfire, but also the power that gets shit done on one-off tasks, unlike OpenClaw. They are different in a few other ways. 
+++ Conversations on Haiku (at least) are just fractions of a cent. At this rate it will take me weeks to burn through the $10 I added to my OpenRouter account. Now, I am sure this will change in the future... and that will be a bridge I cross when I come to it. For now, it is very cheap. But I know why Anthropic has a $20,000 token scholarship for biomedical scientists who are using this to cure diseases. The tokens it takes to DO BIG THINGS are very, uh, pricey! $
+
++ **HERE'S A SUMMARY OF WHERE I FAILED:**
+++ 1) Friday: Unboxed the mini and did basic setup and installed Hermes Agent with hermes3:8b. Did not finish the Hermes Agent setup wizard BUT DIDN'T REALIZE IT because it mostly worked. Had my first chat with Seek. Web search failed. No idea why, but it was sleep-time.
+++ 2) Saturday morning: I completely forgot that I had messed up the API key part of the setup wizard for OpenRouter because it was late at night (and also: when I went to go get an API key for OpenRouter, the setup wizard timed out). 
+++ 3) Saturday night: Still trying to figure out why Seek can't browse the web, Claude and I went on a debugging wild goose chase. This is HOW TO BURN TOKENS 101.
+++ 4) Sunday: Only after I finally remembered Friday night's API key fail (2 days later) and fixing that did I realize I needed to finish setup. Then things started working! 
++++ But even after all of that, it took me another afternoon to think... hey... JUST ASK SEEK TO TRY `browser_navigate` to load https://google.com and tell me the page title. Which surfaced the ACUTAL ERROR -> I need to install Chrome and run `agent_browser install`
+++++ >> FACE PALM << 
+
++ There were definitely a few other "bumps in the road" that I had to work through during that time.
+++ Examples:
++++ Setting up a sandboxed chat interface between my Mini and my MacBook Air. I settled on using Element, a Matrix-based end-to-end encrypted messenger and secure collaboration app. I was actually looking for something as close to IRC as possible, but this fit the bill and had other features (like encryption and basic formatting).
+++ I originally wanted to have my agent (Seek) as a user on the Mac Mini, with sysadmin and sudo privileges restricted to me (Cali). This split created a lot of install headaches, and to be honest, I'm not even sure it was worthwhile. On the one hand, if Seek gets pwned while she's gallivanting across the web (and she probably will), it is useful for her to NOT have permission to nuke the Mini (just her own files). On the other hand, even if she does have sudo, if she's adequately sandboxed, her blast radius is still... just the Mini. And I should be backing up everything on the Mini, which I can just restore if she goes rogue. Right??
++++ I'm still not sure what the right thing to do here is, and I think there isn't really a consensus? The answer kinda depends on what you are doing and how sensitive the data is?
+
++ Oh yeah, Friday night I also had to work, and in a spree of enthusiasm decided to debug my skill files for the sites! #lol 
+++ I forget about these things now! But that's also partly why this Mac Mini / Hermes Agent setup took so long. Because I also have a day job and a life, lolz. =) 
+
+## Words
+
++ cURL 
+++ The command line web browser! 
+++ curl simplifies data collection from websites via its command-line interface. You can use curl in your terminal to directly ask a server for information, like a web page or file, without needing a browser.
+++ This works for simple websites, not JavaScript-heavy modern websites.
+++ Standard cURL cannot execute JavaScript on its own; it only retrieves the raw, static HTML "skeleton" from a server
+++ cURL is a lightweight, command-line tool ideal for scraping static pages and structured JSON data.
+
+
+## Music
+
++ I've rediscovered *Interpol*, a band I listened to intensely during the early 2000s when I was in college, and then... never since, because it reminded me of being depressed. I was surprised to see them touring San Diego and playing a show soon, in 2026! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
